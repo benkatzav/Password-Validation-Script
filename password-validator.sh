@@ -3,6 +3,15 @@
 # reading password
 password=$1
 
+while getopts 'f' option
+	do
+		case $option in
+			f)
+			myfile=$2
+			password=`cat ${myfile}`;;
+		esac
+	done
+
 # color code variables
 red='\033[0;31m'          # Red
 green='\033[0;32m'        # Green
