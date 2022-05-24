@@ -1,2 +1,2 @@
 # Password-Validation-Script
-Practicing Version Control and Scripting
+Converted the script from Bash to PowerShell
